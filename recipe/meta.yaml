@@ -1,5 +1,5 @@
 {% set name = "removestar" %}
-{% set version = "1.2.4" %}
+{% set version = "1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d6ae5db4aaa2197c623a5a9e4dd9ebbf08f64cae5f6c6217e63940dc5ae40287
+  sha256: a41405368f24d36b30051f07f940b723bf85bdcc228a93e07d1fc5a30447b6d4
 
 build:
   noarch: python
