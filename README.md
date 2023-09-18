@@ -151,5 +151,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@Saransh-cpp](https://github.com/Saransh-cpp/)
 * [@asmeurer](https://github.com/asmeurer/)
 

@@ -1,5 +1,5 @@
 {% set name = "removestar" %}
-{% set version = "1.4" %}
+{% set version = "1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4ee1aa88ab2047919ce262b7665d46d69acb58dde5c66ab3034e7811d1408959
+  sha256: 99e2f409afb8e68c6ffcbfdea4751be494715e6b76b873793fc6748a0e5156b7
 
 build:
   noarch: python
@@ -25,6 +25,8 @@ requirements:
   run:
     - python >=3.8
     - pyflakes
+    - nbformat
+    - nbconvert
 
 test:
   imports:
