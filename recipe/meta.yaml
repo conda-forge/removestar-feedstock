@@ -1,13 +1,13 @@
 {% set name = "removestar" %}
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 526ba8ff609bcdeab02bf1194ac51cc96aa3d7d60dded63896ab2fd2a5a3ba13
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 282d6dcb908a12b6dbf9c1050a04256f160e2de2c8bdea78a443dd547486fe3b
 
 build:
   noarch: python
