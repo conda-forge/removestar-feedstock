@@ -1,5 +1,6 @@
 {% set name = "removestar" %}
 {% set version = "1.5.2" %}
+{% set python_min = "3.7" %}
 
 package:
   name: {{ name|lower }}
@@ -18,12 +19,12 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - pyflakes
 
 test:
