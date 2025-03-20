@@ -9,13 +9,11 @@ Package license: MIT
 
 Summary: removestar is a tool to automatically replace 'import *' in Python files with explicit imports.
 
-
 Development: https://github.com/asmeurer/removestar
 
 Documentation: https://asmeurer.com/removestar
 
 removestar is a tool to automatically replace 'import *' in Python files with explicit imports.
-
 
 Current build status
 ====================
