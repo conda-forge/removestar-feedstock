@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: removestar
   version: "1.5.3"
-  python_min: 3.7
 
 package:
   name: ${{ name|lower }}
